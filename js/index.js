@@ -12,13 +12,14 @@ document.addEventListener('scroll', function(){
   if (0 <= percent && percent <= 1) {
     var x = document.getElementsByClassName("akzentbg");
     var i;
+    var colorhue = "hsl("+ (152+ (percent * 360)) +", 89%, 61%)"
     for (i = 0; i < x.length; i++) {
-      x[i].style.backgroundColor = "hsl("+ (152+ (percent * 360)) +", 89%, 61%)";
+      x[i].style.backgroundColor = colorhue;
     }
     var y = document.getElementsByClassName("akzent");
     var j;
     for (j = 0; j < y.length; j++) {
-      y[j].style.color = "hsl("+ (152+ (percent * 360)) +", 89%, 61%)";
+      y[j].style.color = colorhue;
     }
   }
 

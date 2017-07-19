@@ -27,13 +27,10 @@ table {
   min-width:100%;
 }
 #wrapper{
-  margin: 500px auto 0 auto;
+  margin: 0px auto 0 auto;
   width:800px;
 }
 
-.theader {
-  padding: 0 20px;
-}
 .pwrapper {
   padding: 20px;
   background-color: white;
@@ -54,18 +51,6 @@ a:hover {
   transition-duration: 500;
 }
 
-.img1{
-  object-fit: cover;
-  object-position: top right;
-}
-.janos {
-  position: fixed;
-  top: 0px;
-  z-index: -500;
-  left: 50%;
-  margin-left: -400px;
-  width: 800px;
-}
 
 td{
   font-size: 20px;
