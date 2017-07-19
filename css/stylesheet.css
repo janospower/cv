@@ -14,10 +14,7 @@ body {
     margin: 0;
     line-height: 30px;
 }
-header {
-  position: fixed;
-  top:0;
-}
+
 .akzentbg {
   background-color: hsl(152, 89%, 61%);
 }
