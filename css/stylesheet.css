@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     background-color: white;
     margin: 0;
     line-height: 30px;
@@ -29,30 +29,24 @@ body {
   width: 0%;
   padding: 0;
   margin: 0;
-  height: 5px;
+  height: 2px;
 }
-table {
-  min-width:100%;
-}
-#wrapper{
+
+#mainwrapper{
   margin: 0px auto 0 auto;
   width:800px;
 }
 
-.pwrapper {
+.wrapper {
   padding: 20px;
   background-color: white;
   /* just for testing */
-  min-height: 200000px;
-}
-
-p {
-  margin-top: 0px;
+  min-height: 20000px;
 }
 
 a {
   text-decoration: none;
-  font-weight: 900;
+  /*font-weight: 900;*/
   color: inherit;
 }
 
