@@ -22,7 +22,15 @@ body {
 .akzent {
   color: hsl(152, 89%, 61%);
 }
-
+.scrollprog{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 5px;
+}
 table {
   min-width:100%;
 }
@@ -34,6 +42,8 @@ table {
 .pwrapper {
   padding: 20px;
   background-color: white;
+  /* just for testing */
+  min-height: 200000px;
 }
 
 p {
