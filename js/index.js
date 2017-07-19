@@ -29,12 +29,7 @@ document.addEventListener('scroll', function(){
     var svg = document.getElementsByClassName("akzentsvg");
     var k;
     for (k = 0; k < svg.length; k++) {
-      
-        svg[k].style.stroke = colorhue;
-
-      if (svg[k].style.fill!="") {
-        svg[k].style.fill = colorhue;
-      }
+      svg[k].style.fill = colorhue;  
     }
   }
 
