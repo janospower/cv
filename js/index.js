@@ -21,6 +21,10 @@ document.addEventListener('scroll', function(){
     for (j = 0; j < y.length; j++) {
       y[j].style.color = colorhue;
     }
+
+    var progb = document.getElementsByClassName("scrollprog");
+    // console.log(progb[0]);
+    progb[0].style.width = (percent * 100)+"%";
   }
 
 
