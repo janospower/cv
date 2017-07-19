@@ -10,6 +10,11 @@ document.addEventListener('scroll', function(){
 	// console.log(percent);
 
   if (0 <= percent && percent <= 1) {
+
+    var hone = document.getElementsByClassName("headerone");
+      hone[0].style.transform = "rotateX("+(percent*90)+"deg)";
+
+
     var x = document.getElementsByClassName("akzentbg");
     var i;
     var colorhue = "hsl("+ (152+ (percent * 360)) +", 89%, 61%)"
@@ -29,7 +34,7 @@ document.addEventListener('scroll', function(){
     var svg = document.getElementsByClassName("akzentsvg");
     var k;
     for (k = 0; k < svg.length; k++) {
-      svg[k].style.fill = colorhue;  
+      svg[k].style.fill = colorhue;
     }
   }
 
