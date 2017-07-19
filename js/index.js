@@ -12,8 +12,9 @@ document.addEventListener('scroll', function(){
   if (0 <= percent && percent <= 1) {
 
     var hone = document.getElementsByClassName("headerone");
-      hone[0].style.transform = "rotateX("+(percent*900)+"deg)";
-      // hone[0].style.transform = "translateY("+(percent*900)+"px)";
+      hone[0].style.transform = "rotateX("+(percent*1500)+"deg)";
+
+      hone[0].style.transform += "translateY("+(percent*2500)+"px)";
 
 
     var x = document.getElementsByClassName("akzentbg");
