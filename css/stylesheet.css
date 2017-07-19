@@ -38,7 +38,7 @@ body {
 }
 
 .wrapper {
-  padding: 20px;
+  padding: 8px;
   background-color: white;
   /* just for testing */
   min-height: 20000px;
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   padding-top: 0px;
   /*text-transform: none;*/
-  font-size: 112px;
+  font-size: 14vw;
   color: white;
 }
 
@@ -95,6 +95,16 @@ footer a:hover {
     #mainwrapper{
       margin: 0px auto 0 auto;
       width:800px;
+    }
+    .wrapper{
+        padding: 20px;
+    }
+
+    h1 {
+      padding-top: 0px;
+      /*text-transform: none;*/
+      font-size: 114px;
+      color: white;
     }
 
     .lfloat {
