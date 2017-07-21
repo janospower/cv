@@ -62,6 +62,18 @@ a:hover {
   margin-top: 30px;
 }
 
+.year{
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  padding: 1px 4px 1px 4px;
+  margin-right: 3px;
+}
+
+.worksimg{
+  width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   /*font-family: Helvetica, Arial, serif;*/
   margin:0 0 10px 0;
