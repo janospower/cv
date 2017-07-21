@@ -49,6 +49,9 @@ a {
   /*font-weight: 900;*/
   color: inherit;
 }
+.indent{
+  text-indent: 20px;
+}
 
 a:hover {
   color: black;
@@ -116,5 +119,10 @@ footer a:hover {
     .rfloat {
       float: right;
       width: 50%;
+    }
+    .inlinesvg{
+      width: 50%;
+      margin: 0px auto 0 auto;
+      display: block;
     }
 }
