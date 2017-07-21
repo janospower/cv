@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     background-color: white;
     margin: 0;
     line-height: 30px;
@@ -58,6 +58,9 @@ a:hover {
   transition-duration: 500;
 }
 
+.lfloat, .rfloat {
+  margin-top: 20px;
+}
 
 h1, h2, h3, h4, h5, h6 {
   /*font-family: Helvetica, Arial, serif;*/
@@ -97,6 +100,10 @@ footer a:hover {
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
+    body {
+      font-family: 'Lato', Helvetica, Arial, sans-serif;
+      font-size: 16px;
+    }
     #mainwrapper{
       margin: 0px auto 0 auto;
       width:800px;
@@ -115,10 +122,12 @@ footer a:hover {
     .lfloat {
       float: left;
       width: 50%;
+      padding-right: 10px
     }
     .rfloat {
       float: right;
       width: 50%;
+      padding-left: 10px
     }
     .inlinesvg{
       width: 50%;
