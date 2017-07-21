@@ -97,6 +97,9 @@ h1 {
   color: white;
   -webkit-transform: rotateX(0deg); /* Safari */
   transform: rotateX(0deg);
+  -ms-transform-origin: 0% 80%; /* IE 9 */
+  -webkit-transform-origin: 0% 80%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 80%;
 }
 
 ul, ol {

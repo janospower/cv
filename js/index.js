@@ -12,7 +12,7 @@ document.addEventListener('scroll', function(){
   if (0 <= percent && percent <= 1) {
 
     var hone = document.getElementsByClassName("headerone");
-      hone[0].style.transform = "rotateX("+(percent*1500)+"deg)";
+      hone[0].style.transform = "rotateX("+(docEl[st]||b[st]*0.6)+"deg)";
 
       // hone[0].style.transform += "translateY("+(percent*2500)+"px)";
 
