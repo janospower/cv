@@ -127,6 +127,9 @@ footer a:hover {
 .clear{
   clear: both;
 }
+.worksimg{
+  width: 100%;
+}
 
 @media only screen and (min-width: 800px) {
     /* For desktop: */
@@ -161,9 +164,6 @@ footer a:hover {
     }
     .inlinesvg{
       width: 50%;
-    }
-    .worksimg{
-      width: 100%;
     }
 
 }
