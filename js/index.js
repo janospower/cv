@@ -42,7 +42,12 @@ document.addEventListener('scroll', function(){
     var g = document.getElementsByClassName("rotate");
     var l;
     for (l = 0; l < g.length; l++) {
-      g[l].style.transform = "rotate("+(percent*500)+"deg)";
+      if (l==1) {
+        g[l].style.transform = "rotate("+(-percent*700)+"deg)";
+      }
+      else {
+        g[l].style.transform = "rotate("+(percent*500)+"deg)";
+      }
     }
   }
 });
