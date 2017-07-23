@@ -137,7 +137,15 @@ footer p {
 }
 footer a:hover {
   color: black;
+  /*-webkit-filter: invert(100%);
+  filter: invert(100%);*/
 }
+footer a:hover img {
+  /*color: black;*/
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
 footer .lfloat, footer .rfloat{
   margin-top: 0;
 }
