@@ -63,7 +63,7 @@ function navlightbox(e) {
 
     e = e || window.event;
     // var lightboxes = document.getElementsByClassName("lightbox");
-    var tags = ["grenade","alf","spotify","uni","icon"]
+    var tags = ["grenade","alf","spotify","uni","icon","technisch","sunshine","app"]
     // var as = document.getElementsByClassName("lightbox");
 
     if (e.keyCode == '38' || e.keyCode == '37') {
