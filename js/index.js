@@ -40,28 +40,52 @@ document.addEventListener('scroll', function(){
     }
   }
 });
-function changetarget() {
-  if(event.target.classList.length==1){
-    event.target.className += " target";
-  }
-}
+// function changetarget() {
+//   if(event.target.classList.length==1){
+//     event.target.className += " target";
+//   }
+// }
 
 document.onkeydown = navlightbox;
 
 function navlightbox(e) {
 
     e = e || window.event;
-    var lightboxes = document.getElementsByClassName("lightbox");
+    // var lightboxes = document.getElementsByClassName("lightbox");
+    var tags = ["grenade","alf","spotify","uni"]
+    // var as = document.getElementsByClassName("lightbox");
 
     if (e.keyCode == '38' || e.keyCode == '37') {
-        // alert("up or left");
+      for (var i = 0; i < tags.length; i++) {
+        if (tags[i]==event.target.id) {
+          if (i==0) {
+            window.location.href = "#"+tags[tags.length-1];
+          }
+          else {
+            window.location.href = "#"+tags[i-1];
+          }
+        }
+      }
     }
     else if (e.keyCode == '39' || e.keyCode == '40') {
       //  alert("down or right");
       // console.log();
-      if(event.target.classList.length==1){
-        event.target.className += " target";
+      // if(event.target.classList.length==1){
+      //   event.target.className += " target";
+      // }
+      for (var i = 0; i < tags.length; i++) {
+        if (tags[i]==event.target.id) {
+          if (i==tags.length-1) {
+            window.location.href = "#"+tags[0];
+          }
+          else {
+            window.location.href = "#"+tags[i+1];
+          }
+          // console.log(event.target.id)
+        }
+
       }
+
 
     }
 
