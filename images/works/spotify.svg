@@ -2,11 +2,11 @@
 	 viewBox="0 0 3000 3000" enable-background="new 0 0 3000 3000" xml:space="preserve">
 <g>
 
-		<rect x="2160.3" y="848.7" transform="matrix(0.6281 -0.7781 0.7781 0.6281 92.1936 2140.3711)" fill="hsl(152, 89%, 61%)" class="akzentsvg" width="250" height="250"/>
+		<rect x="2160.3" y="848.7" transform="matrix(0.6281 -0.7781 0.7781 0.6281 92.1936 2140.3711)" fill="red" class="akzentsvg" width="250" height="250"/>
 </g>
 <g>
 
-		<rect x="1068.1" y="2201.9" transform="matrix(0.6281 -0.7781 0.7781 0.6281 -1366.9185 1793.6744)" fill="hsl(152, 89%, 61%)" class="akzentsvg" width="250" height="250"/>
+		<rect x="1068.1" y="2201.9" transform="matrix(0.6281 -0.7781 0.7781 0.6281 -1366.9185 1793.6744)" fill="red" class="akzentsvg" width="250" height="250"/>
 </g>
 <g>
 	<g>
@@ -17,7 +17,7 @@
 			<use xlink:href="#SVGID_1_"  overflow="visible"/>
 		</clipPath>
 		<g clip-path="url(#SVGID_2_)">
-			<path fill="hsl(152, 89%, 61%)" class="akzentsvg" d="M2430,1090.6c43.4-53.7,57.3-114.4,31.1-135.6c-26.2-21.2-82.6,5.2-126,58.9
+			<path fill="red" class="akzentsvg" d="M2430,1090.6c43.4-53.7,57.3-114.4,31.1-135.6c-26.2-21.2-82.6,5.2-126,58.9
 				c-43.4,53.7-57.3,114.4-31.1,135.6C2330.3,1170.8,2386.7,1144.4,2430,1090.6"/>
 		</g>
 	</g>
@@ -41,7 +41,7 @@
 			<use xlink:href="#SVGID_5_"  overflow="visible"/>
 		</clipPath>
 		<g clip-path="url(#SVGID_6_)">
-			<path fill="hsl(152, 89%, 61%)" class="akzentsvg" d="M1337.7,2443.8c43.4-53.7,57.3-114.4,31.1-135.6c-26.2-21.2-82.6,5.2-126,58.9
+			<path fill="red" class="akzentsvg" d="M1337.7,2443.8c43.4-53.7,57.3-114.4,31.1-135.6c-26.2-21.2-82.6,5.2-126,58.9
 				c-43.4,53.7-57.3,114.4-31.1,135.6S1294.4,2497.5,1337.7,2443.8"/>
 		</g>
 	</g>

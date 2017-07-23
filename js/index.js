@@ -83,10 +83,9 @@ function navlightbox(e) {
           }
           // console.log(event.target.id)
         }
-
       }
-
-
     }
-
+    else if (e.keyCode == '8' || e.keyCode == '32' || e.keyCode == '27') {
+      window.location.href = "#_";
+    }
 };

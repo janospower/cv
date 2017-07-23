@@ -12,11 +12,11 @@
 		</g>
 		<g>
 			<g>
-				<rect x="86.5" y="479.4" fill="hsl(152, 89%, 61%)" class="akzentsvg" width="19" height="17.9"/>
+				<rect x="86.5" y="479.4" fill="red" class="akzentsvg" width="19" height="17.9"/>
 				<path fill="#121212" d="M105.6,497.8h-19l-0.5-0.5v-17.9l0.5-0.5h19l0.5,0.5v17.9L105.6,497.8z M87,496.8h18v-16.9H87V496.8z"/>
 			</g>
 			<g>
-				<rect x="82.1" y="486.8" fill="hsl(152, 89%, 61%)" class="akzentsvg" width="27.9" height="11.6"/>
+				<rect x="82.1" y="486.8" fill="red" class="akzentsvg" width="27.9" height="11.6"/>
 				<path fill="#121212" d="M110,498.9H82.1l-0.5-0.5v-11.6l0.5-0.5H110l0.5,0.5v11.6L110,498.9z M82.6,497.9h26.9v-10.6H82.6V497.9z"
 					/>
 			</g>
