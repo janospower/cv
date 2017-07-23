@@ -169,7 +169,9 @@ footer a:hover {
       width: 50%;
     }
     .lightbox {
-    	/** Default lightbox to hidden */
+    	/** Default lightbox to hidden
+      CREDIT: https://codepen.io/gschier/pen/HCoqh
+      */
     	display: none;
 
     	/** Position and style */

@@ -39,6 +39,30 @@ document.addEventListener('scroll', function(){
       svg[k].style.fill = colorhue;
     }
   }
-
-
 });
+function changetarget() {
+  if(event.target.classList.length==1){
+    event.target.className += " target";
+  }
+}
+
+document.onkeydown = navlightbox;
+
+function navlightbox(e) {
+
+    e = e || window.event;
+    var lightboxes = document.getElementsByClassName("lightbox");
+
+    if (e.keyCode == '38' || e.keyCode == '37') {
+        // alert("up or left");
+    }
+    else if (e.keyCode == '39' || e.keyCode == '40') {
+      //  alert("down or right");
+      // console.log();
+      if(event.target.classList.length==1){
+        event.target.className += " target";
+      }
+
+    }
+
+};
