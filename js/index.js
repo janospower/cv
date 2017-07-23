@@ -31,7 +31,7 @@ document.addEventListener('scroll', function(){
 
     var progb = document.getElementsByClassName("scrollprog");
     // console.log(progb[0]);
-    progb[0].style.width = (percent * 100)+"%";
+    progb[0].style.height = (percent * 100)+"%";
 
     var svg = document.getElementsByClassName("akzentsvg");
     var k;
