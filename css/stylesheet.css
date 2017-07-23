@@ -93,6 +93,10 @@ a:hover {
   margin: 0px auto 0 auto;
   display: block;
 }
+g{
+  /*transform: rotate(100deg);*/
+  transform-origin:center;
+}
 
 
 h1, h2, h3, h4, h5, h6 {

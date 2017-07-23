@@ -38,6 +38,12 @@ document.addEventListener('scroll', function(){
     for (k = 0; k < svg.length; k++) {
       svg[k].style.fill = colorhue;
     }
+
+    var g = document.getElementsByClassName("rotate");
+    var l;
+    for (l = 0; l < g.length; l++) {
+      g[l].style.transform = "rotate("+(percent*500)+"deg)";
+    }
   }
 });
 // function changetarget() {
