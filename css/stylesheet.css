@@ -13,7 +13,11 @@ body {
     background-color: white;
     margin: 0;
     line-height: 30px;
-    overflow-y:hidden;
+    /*overflow-y:hidden;*/
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .akzentbg {
