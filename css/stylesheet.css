@@ -64,6 +64,7 @@ a {
 }
 p{
   margin-bottom: 0px;
+  word-spacing: 0.05em;
 }
 section {
   margin-bottom: 20px;
