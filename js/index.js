@@ -48,8 +48,8 @@ document.addEventListener('scroll', function(){
         el[i].style.fill = colorhue;
       }
     }
-
-    var g = document.getElementsByClassName("rotate");
+    var phys = document.getElementById("phys");
+    var g = phys.getSVGDocument().getElementsByClassName("rotate");
     var l;
     for (l = 0; l < g.length; l++) {
       if (l==1) {
