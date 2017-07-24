@@ -235,6 +235,7 @@ footer .lfloat, footer .rfloat{
     }
     .lightbox iframe{
       height: 80%;
+      width: 80vh;
       margin: 5% auto auto auto;
       border: none;
     }
