@@ -90,6 +90,7 @@ a:hover {
 
 .inlinesvg, .worksimg{
   max-width: 400px;
+  width: 100%;
   margin: 0px auto 0 auto;
   display: block;
 }
