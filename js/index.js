@@ -16,7 +16,6 @@ document.addEventListener('scroll', function(){
 
       // hone[0].style.transform += "translateY("+(percent*2500)+"px)";
 
-
     var x = document.getElementsByClassName("akzentbg");
     var i;
     var colorhue = "hsl("+ (152+ (percent * 360)) +", 89%, 61%)"
@@ -33,10 +32,21 @@ document.addEventListener('scroll', function(){
     // console.log(progb[0]);
     progb[0].style.height = (percent * 100)+"%";
 
-    var svg = document.getElementsByClassName("akzentsvg");
-    var k;
-    for (k = 0; k < svg.length; k++) {
-      svg[k].style.fill = colorhue;
+    // var svg = document.getElementsByClassName("akzentsvg");
+    // var k;
+    // for (k = 0; k < svg.length; k++) {
+    //   svg[k].style.fill = colorhue;
+    // }
+
+    var obj = document.getElementsByClassName("svgobject");
+    var m;
+    for (m = 0; m < obj.length; m++) {
+      var el =  obj[m].getSVGDocument().getElementsByClassName("akzentsvg");
+      // console.log(el.length);
+      var i;
+      for (var i = 0; i < el.length; i++) {
+        el[i].style.fill = colorhue;
+      }
     }
 
     var g = document.getElementsByClassName("rotate");
