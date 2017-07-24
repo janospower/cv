@@ -233,7 +233,12 @@ footer .lfloat, footer .rfloat{
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
     }
-    .lightbox img {
+    .lightbox iframe{
+      height: 80%;
+      margin: 5% auto auto auto;
+      border: none;
+    }
+    .lightbox img{
     	/** Pad the lightbox image */
     	/*max-width: 90%;
     	max-height: 80%;*/
