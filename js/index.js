@@ -1,20 +1,20 @@
 document.addEventListener('scroll', function(){
 
-    var docEl = document.documentElement,
-        b = document.body,
-        st = 'scrollTop',
-        sh = 'scrollHeight';
+  var docEl = document.documentElement,
+  b = document.body,
+  st = 'scrollTop',
+  sh = 'scrollHeight';
 
-    var percent = (docEl[st]||b[st]) / ((docEl[sh]||b[sh]) - window.innerHeight);
+  var percent = (docEl[st]||b[st]) / ((docEl[sh]||b[sh]) - window.innerHeight);
 
-	// console.log(percent);
+  // console.log(percent);
 
   if (0 <= percent && percent <= 1) {
 
     // var hone = document.getElementsByClassName("headerone");
     //   hone[0].style.transform = "rotateX("+(docEl[st]||b[st]*0.6)+"deg)";
 
-      // hone[0].style.transform += "translateY("+(percent*2500)+"px)";
+    // hone[0].style.transform += "translateY("+(percent*2500)+"px)";
 
     var x = document.getElementsByClassName("akzentbg");
     var i;
@@ -53,10 +53,10 @@ document.addEventListener('scroll', function(){
     var l;
     for (l = 0; l < g.length; l++) {
       if (l==1) {
-        g[l].style.transform = "rotate("+(-percent*700)+"deg)";
+        g[l].style.transform = "rotate("+(-percent*1000)+"deg)";
       }
       else {
-        g[l].style.transform = "rotate("+(percent*500)+"deg)";
+        g[l].style.transform = "rotate("+(percent*800)+"deg)";
       }
     }
   }
@@ -71,42 +71,42 @@ document.onkeydown = navlightbox;
 
 function navlightbox(e) {
 
-    e = e || window.event;
-    // var lightboxes = document.getElementsByClassName("lightbox");
-    var tags = ["grenade","alf","alffunc","spotify","uni","icon","technisch","sunshine","app"]
-    // var as = document.getElementsByClassName("lightbox");
+  e = e || window.event;
+  // var lightboxes = document.getElementsByClassName("lightbox");
+  var tags = ["grenade","alf","alffunc","spotify","uni","icon","technisch","sunshine","app"]
+  // var as = document.getElementsByClassName("lightbox");
 
-    if (e.keyCode == '38' || e.keyCode == '37') {
-      for (var i = 0; i < tags.length; i++) {
-        if (tags[i]==event.target.id) {
-          if (i==0) {
-            window.location.href = "#"+tags[tags.length-1];
-          }
-          else {
-            window.location.href = "#"+tags[i-1];
-          }
+  if (e.keyCode == '38' || e.keyCode == '37') {
+    for (var i = 0; i < tags.length; i++) {
+      if (tags[i]==event.target.id) {
+        if (i==0) {
+          window.location.href = "#"+tags[tags.length-1];
+        }
+        else {
+          window.location.href = "#"+tags[i-1];
         }
       }
     }
-    else if (e.keyCode == '39' || e.keyCode == '40') {
-      //  alert("down or right");
-      // console.log();
-      // if(event.target.classList.length==1){
-      //   event.target.className += " target";
-      // }
-      for (var i = 0; i < tags.length; i++) {
-        if (tags[i]==event.target.id) {
-          if (i==tags.length-1) {
-            window.location.href = "#"+tags[0];
-          }
-          else {
-            window.location.href = "#"+tags[i+1];
-          }
-          // console.log(event.target.id)
+  }
+  else if (e.keyCode == '39' || e.keyCode == '40') {
+    //  alert("down or right");
+    // console.log();
+    // if(event.target.classList.length==1){
+    //   event.target.className += " target";
+    // }
+    for (var i = 0; i < tags.length; i++) {
+      if (tags[i]==event.target.id) {
+        if (i==tags.length-1) {
+          window.location.href = "#"+tags[0];
         }
+        else {
+          window.location.href = "#"+tags[i+1];
+        }
+        // console.log(event.target.id)
       }
     }
-    else if (e.keyCode == '8' || e.keyCode == '32' || e.keyCode == '27') {
-      window.location.href = "#_";
-    }
+  }
+  else if (e.keyCode == '8' || e.keyCode == '32' || e.keyCode == '27') {
+    window.location.href = "#_";
+  }
 };
