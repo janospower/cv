@@ -1,5 +1,4 @@
-document.addEventListener('scroll', function(){
-
+var scroll = function () {
   var docEl = document.documentElement,
   b = document.body,
   st = 'scrollTop',
@@ -7,14 +6,7 @@ document.addEventListener('scroll', function(){
 
   var percent = (docEl[st]||b[st]) / ((docEl[sh]||b[sh]) - window.innerHeight);
 
-  // console.log(percent);
-
   if (0 <= percent && percent <= 1) {
-
-    // var hone = document.getElementsByClassName("headerone");
-    //   hone[0].style.transform = "rotateX("+(docEl[st]||b[st]*0.6)+"deg)";
-
-    // hone[0].style.transform += "translateY("+(percent*2500)+"px)";
 
     var x = document.getElementsByClassName("akzentbg");
     var i;
@@ -27,16 +19,6 @@ document.addEventListener('scroll', function(){
     for (j = 0; j < y.length; j++) {
       y[j].style.color = colorhue;
     }
-
-    var progb = document.getElementsByClassName("scrollprog");
-    // console.log(progb[0]);
-    progb[0].style.height = (percent * 100)+"%";
-
-    // var svg = document.getElementsByClassName("akzentsvg");
-    // var k;
-    // for (k = 0; k < svg.length; k++) {
-    //   svg[k].style.fill = colorhue;
-    // }
 
     var obj = document.getElementsByClassName("svgobject");
     var m;
@@ -60,12 +42,20 @@ document.addEventListener('scroll', function(){
       }
     }
   }
+};
+var waiting = false;
+document.addEventListener('scroll', function(){
+    if (waiting) {
+        return;
+    }
+    waiting = true;
+
+    scroll();
+
+    setTimeout(function () {
+        waiting = false;
+    }, 100);
 });
-// function changetarget() {
-//   if(event.target.classList.length==1){
-//     event.target.className += " target";
-//   }
-// }
 
 document.onkeydown = navlightbox;
 

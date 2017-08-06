@@ -17,18 +17,19 @@ body {
     /*overflow-y:hidden;*/
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     display: none;
-}
+}*/
 
 .akzentbg {
   background-color: hsl(152, 89%, 61%);
+  /*transition-duration: 1s;*/
 }
 
 .akzent {
   color: hsl(152, 89%, 61%);
 }
-.scrollprog{
+/*.scrollprog{
   position: fixed;
   top: 0;
   right: 0px;
@@ -36,7 +37,7 @@ body {
   padding: 0;
   margin: 0;
   width: 5px;
-}
+}*/
 
 #mainwrapper{
   width: 100%;
