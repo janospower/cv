@@ -57,6 +57,7 @@ document.addEventListener('scroll', function(){
     }, 100);
 });
 
+
 document.onkeydown = navlightbox;
 
 function navlightbox(e) {
