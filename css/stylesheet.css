@@ -122,14 +122,13 @@ h1 {
 
 ul, ol {
   /*padding-left: 25px;*/
-  list-style-type: none;
+  /* list-style-type: none; */
   padding:0;
   margin:0;
+  float: left;
 }
 li{
-  min-height: 50px;
-  line-height:50px;
-  margin-bottom: 20px;
+  display: inline;
 }
 
 footer {
@@ -185,7 +184,8 @@ object{
     }
     main{
       width: 100%;
-      margin: 0px auto 360px auto;
+      padding: 0px;
+      margin: 0px 0px 360px 0px;
       background-color: white;
       display: grid;
       grid-template-columns: 1fr repeat(2, 400px) 1fr;
@@ -246,7 +246,7 @@ object{
     h1 {
       padding-top: 0px;
       /*text-transform: none;*/
-      font-size: 114px;
+      font-size: 139px;
       color: white;
     }
 
@@ -292,7 +292,8 @@ object{
     	display: block;
     }
     .fcont{
-      width: 800px;
+      max-width: 800px;
+      margin: 0px auto;
     }
 
 }
