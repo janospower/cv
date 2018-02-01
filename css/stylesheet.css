@@ -1,3 +1,5 @@
+@font-face {font-family: 'Texta-Black';src: url('../fonts/Texta-Black-webfont.eot');src: url('../fonts/Texta-Black-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/Texta-Black-webfont.woff') format('woff'),url('../fonts/Texta-Black-webfont.ttf') format('truetype');}
+@font-face {font-family: 'Texta-Regular';src: url('../fonts/Texta-Regular-webfont.eot');src: url('../fonts/Texta-Regular-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/Texta-Regular-webfont.woff') format('woff'),url('../fonts/Texta-Regular-webfont.ttf') format('truetype');}
 *{
   box-sizing: border-box;
 }
@@ -8,7 +10,7 @@
 }
 
 body {
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-family: 'Texta', Helvetica, Arial, sans-serif;
     font-size: 14px;
     background-color: white;
     margin: 0;
@@ -205,7 +207,7 @@ object{
       grid-column-gap: 10px;
       grid-row-gap: 1em; */
     }
-    .header{
+    header{
       grid-area: header;
     }
     .about {
