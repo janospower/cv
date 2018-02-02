@@ -137,9 +137,9 @@ ready(function(){
 
 });
 function ready(f){/in/.test(document.readyState)?setTimeout('ready('+f+')',9):f()}
-function switcher() {
-  var top = document.getElementsByClassName('top')[0];
-  var bottom = document.getElementsByClassName('bottom')[0];
+function switcher(o) {
+  var top = document.getElementsByClassName('top')[o];
+  var bottom = document.getElementsByClassName('bottom')[o];
   top.classList.remove("top");
   top.className += " bottom";
   bottom.classList.remove("bottom");
