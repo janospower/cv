@@ -81,7 +81,7 @@ p{
   word-spacing: 0.05em;
 }
 section {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 a:hover {
@@ -91,10 +91,12 @@ a:hover {
 
 .year{
   font-size: 13px;
-  color: white;
-  font-weight: bold;
-  padding: 1px 4px 1px 4px;
+  background-color: white;
+  font-weight: 900;
+  padding: 1.5px 4px 1px 4px;
   margin-right: 3px;
+  position: relative;
+  top: -1px;
 }
 
 .inlinesvg, .worksimg{
@@ -183,13 +185,41 @@ footer a:hover img {
   filter: invert(100%);
 }
 
-
-.clear{
-  clear: both;
-}
 .worksimg{
   width: 100%;
 }
+
+.phone{
+  width: 300px;
+  height: 600px;
+  background: #FFF;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 8px 24px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.03), inset 0 -2px 2px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+  padding: 50px 10px;
+}
+.screen{
+  width: 100%;
+  height: 100%;
+  background: #FAFAFA;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 5;
+}
+.screen::before{
+  content: "";
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  border-radius: 4px;
+  z-index: 8;
+  overflow: hidden;
+}
+
 .lightbox {
   display: none;
 }
@@ -214,13 +244,13 @@ object{
       display: grid;
       grid-template-columns: 1fr repeat(2, 400px) 1fr;
       grid-auto-rows: minmax(100px, auto);
-      grid-column-gap: 40px;
-      grid-row-gap: 40px;
+      grid-column-gap: 50px;
+      /* grid-row-gap: 50px; */
       grid-template-areas:
         "....... header header ......."
         "....... about about ......."
-        ".......  physics bar  ......."
-        ".......  htw rebikel  ......."
+        ".......  physics htw  ......."
+        ".......  bar rebikel  ......."
         ".......  portfolio portfolio  .......";
     }
     .intro{
@@ -255,12 +285,18 @@ object{
       grid-area: grenade;
     }
 
+    .transparent {
+      width: 850px;
+      margin: 0px auto;
+    }
+
 
     h1 {
       padding-top: 0px;
       /*text-transform: none;*/
-      font-size: 139px;
+      font-size: 141px;
       color: white;
+      margin: 0px;
     }
 
     .inlinesvg{

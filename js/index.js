@@ -6,6 +6,7 @@ ready(function(){
   var b = document.body;
   var docEl = document.documentElement;
 
+
   var scroll = function () {
     var st = 'scrollTop';
     var sh = 'scrollHeight';
@@ -17,7 +18,7 @@ ready(function(){
       var x = document.getElementsByClassName("akzentbg");
       var i;
 
-      var colorhue = "hsl("+ (starthue+ (percent * 360)) +", 89%, 61%)"
+      var colorhue = "hsl("+ (starthue+ (1-percent * 360)) +", 89%, 61%)"
       for (i = 0; i < x.length; i++) {
         x[i].style.backgroundColor = colorhue;
       }
