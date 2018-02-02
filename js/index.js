@@ -100,6 +100,10 @@ ready(function(){
     }
   };
 
+  var switch = function() {
+    alert('yay')
+  };
+
   // throttle as seen in underscore.js
   function throttle(func, wait, options) {
     var context, args, result;
