@@ -96,7 +96,7 @@ a:hover {
   padding: 1.5px 4px 1px 4px;
   margin-right: 3px;
   position: relative;
-  top: -1px;
+  top: -2px;
 }
 .whiteentry .year{
   color: white;
@@ -127,7 +127,7 @@ h2, h3, h4, h5, h6{
   letter-spacing: 0.1em;
 }
 h4{
-  font-size: 16px;
+  font-size: 20px;
 }
 h1 {
   padding-top: 0px;
@@ -139,6 +139,9 @@ h1 {
   -ms-transform-origin: 0% 80%; /* IE 9 */
   -webkit-transform-origin: 0% 80%; /* Chrome, Safari, Opera */
   transform-origin: 0% 80%;
+}
+strong{
+  font-weight: 900;
 }
 
 ul, ol {
@@ -223,6 +226,10 @@ footer a:hover img {
   z-index: 8;
   overflow: hidden;
 }
+.text p {
+  margin-top: 0px;
+  margin-bottom: 1em;
+}
 
 .lightbox {
   display: none;
@@ -303,12 +310,20 @@ object{
       grid-column-gap: 50px;
     }
 
+
     h1 {
       padding-top: 0px;
       /*text-transform: none;*/
       font-size: 141px;
       color: white;
       margin: 0px;
+    }
+    h3{
+      font-size: 30px;
+    }
+    .text {
+      font-size: 20px;
+      line-height: 1.7;
     }
 
     .inlinesvg{
