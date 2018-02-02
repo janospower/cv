@@ -196,6 +196,7 @@ footer a:hover img {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 8px 24px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.03), inset 0 -2px 2px 2px rgba(0, 0, 0, 0.05);
   border-radius: 40px;
   padding: 50px 10px;
+  margin: 0px auto;
 }
 .screen{
   width: 100%;
@@ -281,15 +282,17 @@ object{
     .portfolio{
       grid-area: portfolio;
     }
-    .grenade{
-      grid-area: grenade;
-    }
 
     .transparent {
       width: 850px;
       margin: 0px auto;
+      padding-top: 50px;
     }
-
+    .works{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 50px;
+    }
 
     h1 {
       padding-top: 0px;
