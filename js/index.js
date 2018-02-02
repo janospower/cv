@@ -100,9 +100,7 @@ ready(function(){
     }
   };
 
-  var switch = function() {
-    alert('yay')
-  };
+
 
   // throttle as seen in underscore.js
   function throttle(func, wait, options) {
@@ -139,3 +137,11 @@ ready(function(){
 
 });
 function ready(f){/in/.test(document.readyState)?setTimeout('ready('+f+')',9):f()}
+function switcher() {
+  var top = document.getElementsByClassName('top')[0];
+  var bottom = document.getElementsByClassName('bottom')[0];
+  top.classList.remove("top");
+  top.className += " bottom";
+  bottom.classList.remove("bottom");
+  bottom.className += " top";
+}
