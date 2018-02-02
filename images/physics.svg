@@ -1,7 +1,16 @@
 <svg version="1.1" class="inlinesvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 119 86" enable-background="new 0 0 119 86" xml:space="preserve">
 	 <style>
-		 g{transform-origin:center;}
+		 <!-- g{transform-origin:center;} -->
+		 #r1{
+		 	transform-origin: 102.5px 15.5px;
+		 }
+		 #r2{
+		 	transform-origin: 102.5px 34.5px;
+		 }
+		 #r3{
+		 	transform-origin: 102.5px 53.5px;
+		 }
 	 </style>
 		<g>
 			<circle cx="16.5" cy="23.5" r="0.5"/>

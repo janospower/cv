@@ -28,6 +28,9 @@ body {
 .akzentbg {
   background-color: hsl(0, 89%, 61%);
   /* background-color: hsl(152, 89%, 61%); */
+  background-image: url(../images/bg3.jpg);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
 }
 
 .akzent {
