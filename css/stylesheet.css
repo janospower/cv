@@ -1,4 +1,7 @@
 @font-face {font-family: 'Texta-Black';src: url('../fonts/Texta-Black-webfont.eot');src: url('../fonts/Texta-Black-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/Texta-Black-webfont.woff') format('woff'),url('../fonts/Texta-Black-webfont.ttf') format('truetype');}
+
+@font-face {font-family: 'Texta-Bold';src: url('../fonts/Texta-Bold-webfont.eot');src: url('../fonts/Texta-Bold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/Texta-Bold-webfont.woff') format('woff'),url('../fonts/Texta-Bold-webfont.ttf') format('truetype');}
+
 @font-face {font-family: 'Texta-Regular';src: url('../fonts/Texta-Regular-webfont.eot');src: url('../fonts/Texta-Regular-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/Texta-Regular-webfont.woff') format('woff'),url('../fonts/Texta-Regular-webfont.ttf') format('truetype');}
 *{
   box-sizing: border-box;
@@ -16,7 +19,6 @@ body {
     margin: 0;
     line-height: 30px;
     -webkit-font-smoothing: antialiased;
-    /*overflow-y:hidden;*/
 }
 
 /*::-webkit-scrollbar {
@@ -24,11 +26,13 @@ body {
 }*/
 
 .akzentbg {
-  background-color: hsl(152, 89%, 61%);
+  background-color: hsl(0, 89%, 61%);
+  /* background-color: hsl(152, 89%, 61%); */
 }
 
 .akzent {
-  color: hsl(152, 89%, 61%);
+  color: hsl(0, 89%, 61%);
+  /* color: hsl(152, 89%, 61%); */
 }
 /*.scrollprog{
   position: fixed;
@@ -67,10 +71,6 @@ section {
 a:hover {
   color: black !important;
   transition-duration: 500;
-}
-
-.lfloat, .rfloat {
-  margin-top: 30px;
 }
 
 .year{
@@ -121,11 +121,9 @@ h1 {
 }
 
 ul, ol {
-  /*padding-left: 25px;*/
-  /* list-style-type: none; */
+  list-style-type: none;
   padding:0;
   margin:0;
-  float: left;
 }
 li{
   display: inline;
@@ -133,16 +131,15 @@ li{
 
 footer {
   width: 100%;
+  padding-top: 120px;
 }
 .fcont{
-  padding: 20px 20px 40px 20px;
   color: white;
   min-height: 300px;
-  width: 100%;
-  margin: 0 auto;
+  font-weight: bold;
 }
-footer p {
-  margin: 0px 0px 20px 0px;
+.copy{
+  text-align: center;
 }
 footer a:hover {
   color: black;
@@ -169,7 +166,6 @@ footer .lfloat, footer .rfloat{
   display: none;
 }
 .socialicon{
-  height: 30px;
   vertical-align:middle;
   margin-right: 10px;
 }
@@ -212,8 +208,6 @@ object{
     }
     .about {
       grid-area: about;
-      /* grid-column: 2 / 4;
-      grid-row: 1 / 2; */
     }
     .physics{
       grid-area: physics;
@@ -234,14 +228,6 @@ object{
       grid-area: grenade;
     }
 
-    footer{
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      height: 400px;
-      padding-top: 40px;
-      z-index: -10;
-    }
 
     h1 {
       padding-top: 0px;
@@ -291,9 +277,14 @@ object{
     	/** Unhide lightbox **/
     	display: block;
     }
-    .fcont{
-      max-width: 800px;
-      margin: 0px auto;
+    footer{
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: 400px;
+      z-index: -10;
+      display: flex;
+      justify-content: center;
     }
 
 }

@@ -1,30 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
-<g>
-	<path fill="#FFFFFF" d="M50,40.625C50,45.781,45.781,50,40.625,50H9.375C4.219,50,0,45.781,0,40.625V9.375C0,4.219,4.219,0,9.375,0
-		h31.25C45.781,0,50,4.219,50,9.375V40.625z"/>
+<svg width="50" height="50" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>mail</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-635 -2952)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 635 2952L 685 2952L 685 3002L 635 3002L 635 2952Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="mail" clip-path="url(#clip-0)">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(644.28 2977.15)" fill="#FFFFFF"/>
 </g>
-<g>
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M40.72,35.004"/>
-	<g>
-		<path fill="#FFFFFF" d="M40.72,35.004L27.121,21.397c-1.167-1.167-3.076-1.167-4.242,0L9.28,35.004"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M40.72,35.004L27.121,21.397c-1.167-1.167-3.076-1.167-4.242,0
-			L9.28,35.004"/>
-	</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="translate(643.334 2966.3)" fill="#FFFFFF"/>
 </g>
-<g>
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M41.666,32.703c0,1.65-1.35,3-3,3H11.334c-1.65,0-3-1.35-3-3V17.297
-		c0-1.65,1.35-3,3-3h27.332c1.65,0,3,1.35,3,3V32.703z"/>
+<g id="Vector">
+<use xlink:href="#path2_stroke" transform="translate(644.28 2967.27)" fill="#FFFFFF"/>
 </g>
-<g>
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M9.28,15.274"/>
-	<g>
-		<path fill="#FFFFFF" d="M9.28,15.274l13.599,13.604c1.167,1.167,3.075,1.167,4.242,0L40.72,15.274"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M9.28,15.274l13.599,13.604c1.167,1.167,3.075,1.167,4.242,0
-			L40.72,15.274"/>
-	</g>
 </g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 9.2793 -0.565519L -0.565852 9.28543L 0.565852 10.4165L 10.411 0.565519L 9.2793 -0.565519ZM 32.0059 9.28543L 22.1607 -0.565519L 21.029 0.565519L 30.8741 10.4165L 32.0059 9.28543Z"/>
+<path id="path1_stroke" d="M 32.532 18.406C 32.532 19.6142 31.5402 20.606 30.332 20.606L 30.332 22.206C 32.4238 22.206 34.132 20.4978 34.132 18.406L 32.532 18.406ZM 30.332 20.606L 3 20.606L 3 22.206L 30.332 22.206L 30.332 20.606ZM 3 20.606C 1.79183 20.606 0.8 19.6142 0.8 18.406L -0.8 18.406C -0.8 20.4978 0.908172 22.206 3 22.206L 3 20.606ZM 0.8 18.406L 0.8 3L -0.8 3L -0.8 18.406L 0.8 18.406ZM 0.8 3C 0.8 1.79183 1.79183 0.8 3 0.8L 3 -0.8C 0.908171 -0.8 -0.8 0.908174 -0.8 3L 0.8 3ZM 3 0.8L 30.332 0.8L 30.332 -0.8L 3 -0.8L 3 0.8ZM 30.332 0.8C 31.5402 0.8 32.532 1.79183 32.532 3L 34.132 3C 34.132 0.908174 32.4238 -0.8 30.332 -0.8L 30.332 0.8ZM 32.532 3L 32.532 18.406L 34.132 18.406L 34.132 3L 32.532 3Z"/>
+<path id="path2_stroke" d="M 13.599 13.604L 13.0332 14.1696L 13.0333 14.1697L 13.599 13.604ZM 17.841 13.604L 18.4067 14.1697L 18.4068 14.1696L 17.841 13.604ZM -0.56579 0.565582L 13.0332 14.1696L 14.1648 13.0384L 0.565789 -0.565581L -0.56579 0.565582ZM 13.0333 14.1697C 14.5127 15.6491 16.9273 15.6491 18.4067 14.1697L 17.2753 13.0383C 16.4207 13.8929 15.0193 13.8929 14.1647 13.0383L 13.0333 14.1697ZM 18.4068 14.1696L 32.0058 0.565582L 30.8742 -0.565581L 17.2752 13.0384L 18.4068 14.1696Z"/>
+</defs>
 </svg>
