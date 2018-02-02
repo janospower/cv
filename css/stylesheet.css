@@ -284,9 +284,15 @@ object{
     }
 
     .transparent {
+    }
+    .entry{
       width: 850px;
       margin: 0px auto;
-      padding-top: 50px;
+      padding: 100px 0px 50px 0px;
+    }
+    .whiteentry{
+      background-color: white;
+      width: 100%;
     }
     .works{
       display: grid;
