@@ -211,7 +211,7 @@ footer a:hover img {
   padding: 50px 10px;
   margin: 0px auto;
 }
-.phone .screen{
+.screen{
   width: 100%;
   height: 100%;
   background: #FAFAFA;
@@ -228,6 +228,15 @@ footer a:hover img {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 8px 24px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.03), inset 0 -2px 2px 2px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   padding: 2px;
+  margin: 0px auto;
+}
+.ipad{
+  width: calc(1px + 95vw + 1px);
+  height: calc(0px + 73vw + 0px);
+  background: white;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 8px 24px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.03), inset 0 -2px 2px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 15px 40px;
   margin: 0px auto;
 }
 .screen::before{
@@ -329,7 +338,6 @@ object{
     .browsers{
       grid-column: 1 / 3;
       max-height: 650px;
-      cursor: pointer;
     }
     .browser {
       position: relative;
@@ -341,13 +349,20 @@ object{
     .top{
       transform: translate(-20px,-20px) scale(1);
       z-index: 100;
+      cursor: pointer;
     }
     .bottom{
       transform: translate(25px,20px) scale(0.95);
       z-index: 2;
+      cursor: pointer;
     }
     .b{
       top: -615px;
+    }
+    .ipad {
+      width: calc(40px + 800px + 40px);
+      height: calc(15px + 615px + 15px);
+      border-radius: 40px;
     }
 
 
