@@ -32,6 +32,8 @@ main > *:not(.transparent) {
 .akzentbg {
   background-color: hsl(0, 89%, 61%);
   /* background-color: hsl(152, 89%, 61%); */
+}
+.back {
   background-image: url(../images/bg3.jpg);
   background-blend-mode: multiply;
   /* background-attachment: fixed; */
@@ -68,7 +70,8 @@ main {
 
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  -webkit-text-decoration-skip: objects;
   /*font-weight: 900;*/
   color: inherit;
 }
@@ -87,6 +90,7 @@ section {
 a:hover {
   color: black !important;
   transition-duration: 500;
+  text-decoration: none;
 }
 
 .year{
@@ -194,6 +198,9 @@ footer a:hover img {
 .worksimg{
   width: 100%;
 }
+.entry{
+  padding: 50px 8px 50px 8px;
+}
 
 .phone{
   width: 300px;
@@ -230,6 +237,7 @@ footer a:hover img {
   margin-top: 0px;
   margin-bottom: 1em;
 }
+
 
 .lightbox {
   display: none;
