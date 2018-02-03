@@ -74,6 +74,7 @@ a {
   -webkit-text-decoration-skip: objects;
   /*font-weight: 900;*/
   color: inherit;
+  transition: all 200ms ease-out;
 }
 .indent{
   text-indent: 20px;
@@ -146,6 +147,9 @@ h1 {
   -webkit-transform-origin: 0% 80%; /* Chrome, Safari, Opera */
   transform-origin: 0% 80%;
 }
+.nodec {
+  text-decoration: none!important;
+}
 strong{
   font-weight: 900;
   font-family: 'Texta-Black', Helvetica, Arial, sans-serif;
@@ -181,12 +185,13 @@ footer {
 }
 .fcont{
   color: white;
-  font-weight: 900;
-  font-family: 'Texta-Black', Helvetica, Arial, sans-serif;
+  font-family: 'Texta-Regular', Helvetica, Arial, sans-serif;
+  font-size: 20px;
   margin: 300px auto 150px auto;
 }
 .copy{
   text-align: center;
+  margin-top: 30px;
 }
 footer a:hover {
   color: black;
@@ -260,6 +265,11 @@ footer a:hover img {
   margin-bottom: 1em;
 }
 
+#imp{
+  width: 100%;
+  margin: 0px auto;
+  padding: 50px 8px;
+}
 
 .lightbox {
   display: none;
@@ -348,24 +358,33 @@ object{
       width: calc(1px + 800px + 1px);
       height: calc(0px + 615px + 0px);
       /* -webkit-transition: all 300ms ease-in-out;  */
-      transition: all 300ms ease-in-out;
+      transition: all 500ms cubic-bezier(.8, .5, .2, 1.4);
+      cursor: pointer;
     }
+
     .top{
       transform: translate(-20px,-20px) scale(1);
       z-index: 100;
-      cursor: pointer;
     }
     .bottom{
       transform: translate(25px,20px) scale(0.95);
       z-index: 2;
-      cursor: pointer;
+    }
+    .top:hover {
+      transform: translate(-10px,-10px) scale(0.98);
+    }
+    .top:hover + .bottom{
+      transform: translate(10px,10px) scale(0.98);
+    }
+    .bottom:hover{
+      transform: translate(15px,10px) scale(0.95);
     }
     .b{
       top: -615px;
     }
     .ipad {
       width: calc(40px + 800px + 40px);
-      height: calc(15px + 615px + 15px);
+      height: calc(15px + 600px + 15px);
       border-radius: 40px;
     }
 
@@ -389,6 +408,15 @@ object{
       padding-top: 93px;
     }
 
+    #imp > *{
+      width: 850px;
+      margin: 0px auto;
+      padding: 50px 0px;
+    }
+    #imp{
+      width: 100%;
+      background-color: white;
+    }
     .inlinesvg{
       width: 50%;
     }
