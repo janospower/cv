@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Texta', Helvetica, Arial, sans-serif;
+    font-family: 'Texta-Regular', Helvetica, Arial, sans-serif;
     font-size: 14px;
     background-color: white;
     margin: 0;
@@ -97,6 +97,7 @@ a:hover {
   font-size: 13px;
   background-color: white;
   font-weight: 900;
+  font-family: 'Texta-Black', Helvetica, Arial, sans-serif;
   padding: 1.5px 4px 1px 4px;
   margin-right: 3px;
   position: relative;
@@ -124,6 +125,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 40px;
   font-size: 20px;
   font-weight: 900;
+  font-family: 'Texta-Black', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   line-height: normal;
 }
@@ -146,6 +148,7 @@ h1 {
 }
 strong{
   font-weight: 900;
+  font-family: 'Texta-Black', Helvetica, Arial, sans-serif;
 }
 
 ul, ol {
@@ -179,6 +182,7 @@ footer {
 .fcont{
   color: white;
   font-weight: 900;
+  font-family: 'Texta-Black', Helvetica, Arial, sans-serif;
   margin: 300px auto 150px auto;
 }
 .copy{
@@ -370,7 +374,7 @@ object{
     h1 {
       padding-top: 0px;
       /*text-transform: none;*/
-      font-size: 141px;
+      font-size: 139px;
       color: white;
       margin: 0px;
     }
