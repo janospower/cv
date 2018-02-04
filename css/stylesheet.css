@@ -32,6 +32,7 @@ main > *:not(.transparent) {
 .akzentbg {
   background-color: hsl(0, 89%, 61%);
   /* background-color: hsl(152, 89%, 61%); */
+  /* transition: backgroundColor 500ms ease; */
 }
 .back {
   background-image: url(../images/bg3.jpg);
@@ -290,7 +291,7 @@ footer img {
   grid-row-end: span 1;
   cursor: pointer;
 }
-.tile:focus{
+.tilefocus{
   grid-column-end: span 4;
   grid-row-end: span 4;
   outline: none;

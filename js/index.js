@@ -55,6 +55,22 @@ ready(function(){
   var throttled = throttle(scroll, 10)
   document.addEventListener('scroll', throttled);
 
+  var tiles = document.getElementsByClassName("tile");
+  for (var i = 0; i < tiles.length; i++) {
+      tiles[i].addEventListener('click', expandGrid, true);
+  }
+
+  function expandGrid(event) {
+    if (this.classList.contains("tilefocus")) {
+      this.classList.remove("tilefocus");
+    }
+    else {
+      for (var i = 0; i < tiles.length; i++) {
+          tiles[i].classList.remove("tilefocus");
+      }
+      this.className += " tilefocus";
+    }
+  };
 
   document.onkeydown = navlightbox;
 
@@ -62,41 +78,18 @@ ready(function(){
 
     e = e || window.event;
     // var lightboxes = document.getElementsByClassName("lightbox");
-    var tags = ["kindl","condom","grenade","spotify","uni","icon","technisch","technisch2","app","sunshine","heart","phone","bvg","julia","mutter"]
-    // var as = document.getElementsByClassName("lightbox");
+    var focus = document.getElementsByClassName('tilefocus')[0];
 
     if (e.keyCode == '38' || e.keyCode == '37') {
-      for (var i = 0; i < tags.length; i++) {
-        if (tags[i]==event.target.id) {
-          if (i==0) {
-            window.location.href = "#"+tags[tags.length-1];
-          }
-          else {
-            window.location.href = "#"+tags[i-1];
-          }
-        }
-      }
+      focus.classList.remove("tilefocus");
+      focus.previousElementSibling.className += " tilefocus";
     }
     else if (e.keyCode == '39' || e.keyCode == '40') {
-      //  alert("down or right");
-      // console.log();
-      // if(event.target.classList.length==1){
-      //   event.target.className += " target";
-      // }
-      for (var i = 0; i < tags.length; i++) {
-        if (tags[i]==event.target.id) {
-          if (i==tags.length-1) {
-            window.location.href = "#"+tags[0];
-          }
-          else {
-            window.location.href = "#"+tags[i+1];
-          }
-          // console.log(event.target.id)
-        }
-      }
+        focus.classList.remove("tilefocus");
+        focus.nextElementSibling.className += " tilefocus";
     }
     else if (e.keyCode == '8' || e.keyCode == '32' || e.keyCode == '27') {
-      window.location.href = "#_";
+      focus.classList.remove("tilefocus");
     }
   };
 
