@@ -212,7 +212,11 @@
       </article>
 
       <div class="whiteentry">
+        <div class="entry transparent">
+          <h3>Assorted Projects</h3>
+        </div>
         <article class="entry transparent rest">
+
 
           <section class="tile">
               <object data="images/spotify2.svg" class="svgobject worksimg"></object>

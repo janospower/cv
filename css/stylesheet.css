@@ -5,6 +5,7 @@
 @font-face {font-family: 'Texta-Regular';src: url('../fonts/Texta-Regular-webfont.eot');src: url('../fonts/Texta-Regular-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/Texta-Regular-webfont.woff') format('woff'),url('../fonts/Texta-Regular-webfont.ttf') format('truetype');}
 *{
   box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 ::selection {
