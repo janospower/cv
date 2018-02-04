@@ -232,10 +232,18 @@
 
 
           <?php
-          $files = glob("images/works/*.*");
-          for ($i=0; $i<count($files); $i++)
+          $path = "images/works";
+          $glob1 = glob($path . '/*');
+          // print_r($glob1);
+          //
+          // $glob2 = new GlobIterator($path . '/*');
+          // print_r(iterator_to_array($glob2));
+
+          for ($i=0; $i<count($glob1); $i++)
           {
-            $num = $files[$i];
+            // print_r($i);
+            // print_r($num);
+            $num = $glob1[$i];
             echo '<section class="tile">
             <img src="'.$num.'" class="worksimg" alt="Gallery image">
             </section>'." ";

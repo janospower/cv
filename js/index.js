@@ -6,6 +6,11 @@ ready(function(){
   var b = document.body;
   var docEl = document.documentElement;
 
+  var img = document.getElementsByTagName("img");
+
+  for (m = 0; m < img.length; m++) {
+    // console.log(img[m].src);
+  }
 
   var scroll = function () {
     var st = 'scrollTop';
