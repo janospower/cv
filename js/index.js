@@ -43,10 +43,10 @@ ready(function(){
       var l;
       for (l = 0; l < g.length; l++) {
         if (l==1) {
-          g[l].style.transform = "rotate("+(-percent*1000)+"deg)";
+          g[l].style.transform = "rotate("+(-percent*2000)+"deg)";
         }
         else {
-          g[l].style.transform = "rotate("+(percent*800)+"deg)";
+          g[l].style.transform = "rotate("+(percent*5000)+"deg)";
         }
       }
     }

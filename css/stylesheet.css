@@ -71,7 +71,8 @@ main {
 
 a {
   text-decoration: underline;
-  -webkit-text-decoration-skip: objects;
+  -webkit-text-decoration-skip: ink;
+  /* text-decoration-color: black; */
   /*font-weight: 900;*/
   color: inherit;
   transition: all 200ms ease-out;
@@ -200,9 +201,14 @@ footer a:hover {
 }
 footer a:hover img {
   /*color: black;*/
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+  /* -webkit-filter: invert(100%);
+  filter: invert(100%); */
+  transform: translateY(-10px)
 }
+footer img {
+  transition: all 500ms cubic-bezier(.8, .5, .2, 1.4);
+}
+
 
 .worksimg{
   width: 100%;
@@ -427,7 +433,7 @@ iframe{
       font-size: 20px;
       line-height: 1.7;
     }
-    
+
 
     #imp > *{
       width: 850px;
