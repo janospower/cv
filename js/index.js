@@ -62,7 +62,7 @@ ready(function(){
 
     e = e || window.event;
     // var lightboxes = document.getElementsByClassName("lightbox");
-    var tags = ["kindl","condom","grenade","spotify","uni","icon","technisch","technisch2","app","sunshine","heart","phone","bvg"]
+    var tags = ["kindl","condom","grenade","spotify","uni","icon","technisch","technisch2","app","sunshine","heart","phone","bvg","julia","mutter"]
     // var as = document.getElementsByClassName("lightbox");
 
     if (e.keyCode == '38' || e.keyCode == '37') {

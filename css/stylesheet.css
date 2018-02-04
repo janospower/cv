@@ -110,8 +110,6 @@ a:hover {
 }
 
 .inlinesvg, .worksimg{
-  max-width: 400px;
-  width: 100%;
   margin: 0px auto 0 auto;
   display: block;
 }
@@ -280,6 +278,28 @@ footer img {
   padding: 50px 8px;
 }
 
+.rest{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-auto-flow: dense;
+}
+
+.tile {
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+  cursor: pointer;
+}
+.tile:focus{
+  grid-column-end: span 4;
+  grid-row-end: span 4;
+  outline: none;
+  border: none;
+}
+.rest > section {
+  margin: 0px;
+}
+
 .lightbox {
   display: none;
 }
@@ -416,11 +436,7 @@ iframe{
       border-radius: 40px;
     }
 
-    .rest{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-column-gap: 10px;
-    }
+
 
     h1 {
       padding-top: 0px;
