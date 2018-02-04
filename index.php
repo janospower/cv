@@ -213,10 +213,6 @@
 
       <div class="whiteentry">
         <article class="entry transparent rest">
-          <section class="tile">
-              <img src="images/works/kindl.png" class="worksimg" alt="Berliner Kindl Label">
-          </section>
-
 
           <section class="tile">
               <object data="images/spotify2.svg" class="svgobject worksimg"></object>
@@ -231,84 +227,9 @@
 
 
 
-          <section class="tile">
-              <img src="images/works/icon.svg" class="worksimg" alt="Low-Res Icons">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/condom.png" class="worksimg" alt="Metamorphosis">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/herz.png" class="worksimg" alt="herz">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/biene.png" class="worksimg" alt="biene">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/granade.svg" class="worksimg" alt="Granade Illustration Design">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/app.svg" class="worksimg" alt="Icon Set">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/sunshine.svg" class="worksimg" alt="Typography Book">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/technisch.svg" class="worksimg" alt="Technical Design">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/technisch.png" class="worksimg" alt="Technical Design">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/duchamp.png" class="worksimg" alt="duchamp">
-          </section>
-
-
-          <section class="tile">
-              <img src="images/works/heart.jpg" class="worksimg" alt="3d heart">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/seascapes.jpg" class="worksimg" alt="Seascapes">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/gravity.jpg" class="worksimg" alt="Gravity">
-          </section>
-
-          <section class="tile">
-              <img src="images/works/phone.jpg" class="worksimg" alt="3d Phone">
-          </section>
-
-
-          <section class="tile">
-              <img src="images/works/bvg.jpg" class="worksimg" alt="BVG Rental">
-          </section>
-
-
-          <section class="tile">
-              <img src="images/works/julia.jpg" class="worksimg" alt="julia">
-          </section>
-
-
-          <section class="tile">
-              <img src="images/works/mutter.jpg" class="worksimg" alt="mutter">
-          </section>
-
-
-
-
           <?php
-          $files = glob("images/works/auto/*.*");
-          for ($i=1; $i<count($files); $i++)
+          $files = glob("images/works/*.*");
+          for ($i=0; $i<count($files); $i++)
           {
             $num = $files[$i];
             echo '<section class="tile">
