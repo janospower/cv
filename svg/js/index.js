@@ -40,7 +40,7 @@ i=0;
       setColor();
     }
 
-  }, 100);
+  }, 1000);
 }
 
 function downloadInnerHtml(filename, elId, mimeType) {
