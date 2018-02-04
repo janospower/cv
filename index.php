@@ -303,6 +303,20 @@
               <img src="images/works/mutter.jpg" class="worksimg" alt="mutter">
           </section>
 
+
+
+
+          <?php
+          $files = glob("images/works/auto/*.*");
+          for ($i=1; $i<count($files); $i++)
+          {
+            $num = $files[$i];
+            echo '<section class="tile">
+            <img src="'.$num.'" class="worksimg" alt="Gallery image">
+            </section>'." ";
+          }
+          ?>
+
         </article>
       </div>
 
