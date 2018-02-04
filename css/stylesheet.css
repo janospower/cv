@@ -257,6 +257,10 @@ footer img {
 .image{
   width: 100%;
 }
+.sketch{
+  height: 400px;
+  display: block;
+}
 .screen::before{
   content: "";
   top: 0;

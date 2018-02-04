@@ -211,7 +211,7 @@
         </section>
       </article>
 
-      <div class="whiteentry">
+      <div>
         <div class="entry transparent">
           <h3>Assorted Projects</h3>
         </div>
