@@ -442,7 +442,10 @@ iframe{
       border-radius: 40px;
     }
 
-
+    .tilefocus{
+      grid-column-end: span 2;
+      grid-row-end: span 2;
+    }
 
     h1 {
       padding-top: 0px;

@@ -245,7 +245,7 @@
             // print_r($num);
             $num = $glob1[$i];
             echo '<section class="tile">
-            <img src="'.$num.'" class="worksimg" alt="Gallery image">
+            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="'.$num.'" class="worksimg" alt="Gallery image">
             </section>'." ";
           }
           ?>
@@ -260,13 +260,13 @@
       <div class="fcont">
         <ul>
           <li><a href="https://www.instagram.com/janosp/" target="_blank">
-          <img src="images/instagram.svg" class="socialicon" alt="Instagram Icon"></a></li>
+          <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/instagram.svg" class="socialicon" alt="Instagram Icon"></a></li>
           <li><a href="https://open.spotify.com/user/1171628059" target="_blank">
-            <img src="images/spotify.svg" class="socialicon" alt="Spotify Icon"></a></li>
+            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/spotify.svg" class="socialicon" alt="Spotify Icon"></a></li>
           <li><a href="mailto:&#109;&#101;&#064;&#106;&#097;&#110;&#111;&#115;&#112;&#097;&#117;&#101;&#114;&#046;&#099;&#111;&#109;?Subject=janospauer.com">
-            <img src="images/mail.svg" class="socialicon" alt="Mail Icon"></a></li>
+            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/mail.svg" class="socialicon" alt="Mail Icon"></a></li>
           <li><a href="www.linkedin.com/in/janospauer">
-            <img src="images/linkedin.svg" class="socialicon" alt="LinkedIn Icon"></a></li>
+            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/linkedin.svg" class="socialicon" alt="LinkedIn Icon"></a></li>
         </ul>
 
         <div class="copy">
