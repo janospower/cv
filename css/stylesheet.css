@@ -243,14 +243,31 @@ footer img {
   position: relative;
   z-index: 5;
 }
+.browsers{
+  max-height: 65vw;
+}
 .browser{
-  width: calc(1px + 95vw + 1px);
-  height: calc(0px + 73vw + 0px);
+  width: calc(1px + 85vw + 1px);
+  height: calc(0px + 65vw + 0px);
   background: white;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 8px 24px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.03), inset 0 -2px 2px 2px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   padding: 2px;
   margin: 0px auto;
+  position: relative;
+  transition: all 500ms cubic-bezier(.8, .5, .2, 1.4);
+}
+
+.top{
+  transform: translate(-10px,-10px) scale(1);
+  z-index: 100;
+}
+.bottom{
+  transform: translate(15px,10px) scale(0.95);
+  z-index: 2;
+}
+.b{
+  top: -65vw;
 }
 .tabs{
   margin-bottom: 40px;
@@ -282,7 +299,7 @@ hr {
 }
 .ipad{
   width: calc(1px + 95vw + 1px);
-  height: calc(0px + 70vw + 0px);
+  height: calc(0px + 62.1vw + 0px);
   background: white;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 8px 24px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.03), inset 0 -2px 2px 2px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
@@ -448,21 +465,17 @@ iframe{
       height: 100%;
     }
     .browser {
-      position: relative;
       width: calc(1px + 800px + 1px);
       height: calc(0px + 615px + 0px);
       /* -webkit-transition: all 300ms ease-in-out;  */
-      transition: all 500ms cubic-bezier(.8, .5, .2, 1.4);
       cursor: pointer;
     }
 
     .top{
       transform: translate(-20px,-20px) scale(1);
-      z-index: 100;
     }
     .bottom{
       transform: translate(25px,20px) scale(0.95);
-      z-index: 2;
     }
     .top:hover {
       transform: translate(-10px,-10px) scale(0.98);
