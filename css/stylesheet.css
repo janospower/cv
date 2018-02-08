@@ -270,7 +270,7 @@ footer img {
   top: -65vw;
 }
 .tabs{
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .tabs  li {
   display: inline;
@@ -486,6 +486,7 @@ iframe{
     .bottom:hover{
       transform: translate(15px,10px) scale(0.95);
     }
+    
     .b{
       top: -615px;
     }
