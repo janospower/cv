@@ -138,6 +138,14 @@ function ready(f){/in/.test(document.readyState)?setTimeout('ready('+f+')',9):f(
 function switcher(o) {
   var top = document.getElementsByClassName('top')[o];
   var bottom = document.getElementsByClassName('bottom')[o];
+  var dd = document.getElementsByClassName('designdetails')[o];
+  // var hr = document.getElementsByTagName('hr')[o];
+  if (dd.classList.contains('onswitch')) {
+    dd.classList.remove("onswitch");
+  }
+  else {
+    dd.className += " onswitch";
+  }
   top.classList.remove("top");
   top.className += " bottom";
   bottom.classList.remove("bottom");

@@ -57,10 +57,10 @@
              <object data="images/design.svg" class="svgobject inlinesvg"></object>
 
              <p>Right now, I&rsquo;m enrolled in a bachelor&rsquo;s program in <em>communication design</em> at <a href="https://www.htw-berlin.de/en/" class="akzent" target="_blank">HTW Berlin</a>.</p>
-             <p class="indent"> Recently I&rsquo;ve been working on my JavaScript skills in combination with some fancy UI&thinsp;/&thinsp;UX stuff. I love this kind of work because it exposes me to awesome tools and technology like Figma, Framer, THREE.js and D3.js.
+             <p class="indent"> Recently I&rsquo;ve been working on my JavaScript skills in combination with some fancy UI&thinsp;/&thinsp;UX stuff. I love this kind of work because it exposes me to awesome tools and technology like Figma, Framer, <span class="caps">THREE</span>.js and D3.js.
              </p>
              <p class="indent">
-               On the side, I am a chairman at <a href"https://www.sehenundernten.org" style="text-transform: lowercase" class="akzent" target="_blank">Sehen und Ernten</a>.
+               On the side, I am a chairman at <a href"https://www.sehenundernten.org" style="text-transform: lowercase" class="akzent" target="_blank">sehen und ernten</a>.
              </p>
            </section>
 
@@ -105,7 +105,7 @@
             <p><strong>Collaborator: </strong>Philine Schell<br/>
               <strong>Lecturer: </strong>Torsten Malcherczyk<br/>
               <strong>Type: </strong>Concept | dynamic prototype<br/>
-              <strong>Tools: </strong>Figma, Framer, THREE.js, D3.js<br/>
+              <strong>Tools: </strong>Figma, Framer, <span class="caps">THREE</span>.js, D3.js<br/>
             </p>
           </div>
         </section>
@@ -118,7 +118,7 @@
             <div class="text">
               <h3>Mobility as a Service</h3>
                 <p><span class="year akzentbg">2017</span>
-                  &ldquo;<a href="https://www.figma.com/file/DqUnNAx6WLODxefnQdZZX2Ku/City-Bike-Design-Sprint" target="_blank" class="akzent">cycleto</a>&rdquo; resulted from an intense 5-day design sprint. The theme was mobility and each team of 2 had to come up with a product, undertake extensive research and visualise their concept under well-defined time constraints.
+                  &ldquo;<a href="https://www.figma.com/file/DqUnNAx6WLODxefnQdZZX2Ku/City-Bike-Design-Sprint" target="_blank" class="akzent">cycleto</a>&rdquo; resulted from an intense 5-day design sprint. The theme was mobility and each team of two had to come up with a product, undertake extensive research and visualise their concept under well-defined time constraints.
               </p>
               <p><strong>Collaborator: </strong><a href="http://www.louistatschke.com" target="_blank">Louis Tatschke</a><br/>
                 <strong>Lecturer: </strong>Matthias Flucke<br/>
@@ -137,6 +137,11 @@
 
       <article class="entry transparent">
         <section class="works">
+          <ul class="tabs" onclick="switcher(0)">
+            <li class="startseite"><strong>Landing Page</strong></li>
+            <li class="designdetails"><strong>Design Details</strong></li>
+            <hr class="" />
+          </ul>
           <div class="browsers" onclick="switcher(0)">
             <div class="browser top">
               <div class="screen">
@@ -159,7 +164,7 @@
           <div class="text">
             <p><strong>Collaborators: </strong>Yannic Scheffel & Miriam Zils<br/>
               <strong>Lecturer: </strong>Hans Pagel<br/>
-              <strong>Type: </strong>2 Static websites<br/>
+              <strong>Type: </strong>Two Static websites<br/>
               <strong>Tools: </strong>Sketch, fullPage.js, GitHub, lots of vanilla JavaScript<br/>
             </p>
           </div>
@@ -177,7 +182,7 @@
             <h3>Digital Media</h3>
             <div class="text">
                 <p><span class="year akzentbg">2017</span>
-                &ldquo;TODO&rdquo; is the result of my first ever course on digital media.<br/>
+                &ldquo;<span class="caps">TODO</span>&rdquo; is the result of my first ever course on digital media.<br/>
                 After little exercises like designing icons, wireframes and information architectures, this was our vision for a to-do iPad app, tailored for K–12 schools.
               </p>
             </div>
