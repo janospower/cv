@@ -14,7 +14,8 @@
     <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
 
     <!-- js -->
-    <script src="js/index.js"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+
 
     <!-- fonts -->
 
@@ -45,7 +46,7 @@
              <object data="images/physics.svg" class="svgobject inlinesvg" id="phys"></object>
 
 
-             <p>I have a bachelor&rsquo;s degree in physics from the <a href="http://www.fu-berlin.de/en/index.html" class="akzent" target="_blank">Freie Universität Berlin</a>. I studied physics mostly to prove to myself that I could do it. Reasearch for my thesis involved beam time at the <a href="https://www.helmholtz-berlin.de/quellen/bessy/index_en.html" class="akzent" target="_blank">BESSY II</a> synchrotron radiation source.</p>
+             <p>I have a bachelor&rsquo;s degree in physics from the <a href="http://www.fu-berlin.de/en/index.html" class="akzent" target="_blank">Freie Universität Berlin</a>. I studied physics mostly to prove to myself that I could do it. Reasearch for my thesis involved beam time at the <a href="https://www.helmholtz-berlin.de/quellen/bessy/index_en.html" class="akzent" target="_blank"><span class="caps">BESSY II</span></a> synchrotron radiation source.</p>
              <p class="indent">This is also where I picked up a lot of useful skills like Python, Java and JavaScript, and how to process and visualise data properly.</p>
            </section>
 
@@ -74,7 +75,7 @@
              <object data="images/patch.svg" class="svgobject inlinesvg"></object>
 
 
-             <p>Some other usefull skills include repairing bicycles, fluent academic English (TOEFL score of 112⁄120) and even a driver&rsquo;s license!</p>
+             <p>Some other usefull skills include repairing bicycles, fluent academic English (<span class="caps">TOEFL</span> score of 112⁄120) and even a driver&rsquo;s license!</p>
            </section>
           <!-- </article> -->
           <!-- <article class="portfolio"> -->

@@ -1,6 +1,6 @@
 @font-face {font-family: 'Texta-Black';src: url('../fonts/Texta-Black-webfont.eot');src: url('../fonts/Texta-Black-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/Texta-Black-webfont.woff') format('woff'),url('../fonts/Texta-Black-webfont.ttf') format('truetype');}
 
-/* @font-face {font-family: 'Texta-Bold';src: url('../fonts/Texta-Bold-webfont.eot');src: url('../fonts/Texta-Bold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/Texta-Bold-webfont.woff') format('woff'),url('../fonts/Texta-Bold-webfont.ttf') format('truetype');} */
+@font-face {font-family: 'Texta-Medium';src: url('../fonts/Texta-Medium-webfont.eot');src: url('../fonts/Texta-Medium-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/Texta-Medium-webfont.woff') format('woff'),url('../fonts/Texta-Medium-webfont.ttf') format('truetype');}
 
 @font-face {font-family: 'Texta-Regular';src: url('../fonts/Texta-Regular-webfont.eot');src: url('../fonts/Texta-Regular-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/Texta-Regular-webfont.woff') format('woff'),url('../fonts/Texta-Regular-webfont.ttf') format('truetype');}
 *{
@@ -15,10 +15,10 @@
 
 body {
     font-family: 'Texta-Regular', Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
+    line-height: 1.7;
     background-color: white;
     margin: 0;
-    line-height: 30px;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -118,6 +118,13 @@ a:hover {
 g{
   /*transform: rotate(100deg);*/
   transform-origin:center;
+}
+
+.caps{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  font-family: 'Texta-Medium';
 }
 
 
@@ -326,7 +333,8 @@ iframe{
 @media only screen and (min-width: 800px) {
     /* For desktop: */
     body {
-      font-size: 16px;
+      font-size: 20px;
+      line-height: 1.7;
     }
     main{
       width: 100%;
@@ -456,10 +464,6 @@ iframe{
     }
     h3{
       font-size: 30px;
-    }
-    .text {
-      font-size: 20px;
-      line-height: 1.7;
     }
 
 
