@@ -11,7 +11,7 @@ h1{
 	display: inline;
 }
 .slidingVertical span{
-	animation: topToBottom 4s linear infinite 0s;
+	animation: topToBottom 4s cubic-bezier(.8, .5, .2, 1.4) infinite 0s;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
