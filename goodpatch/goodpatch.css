@@ -18,9 +18,10 @@ h1{
 }
 .slidingVertical span:nth-child(1){
 	text-indent: 20px;
+	animation-delay: 0.1s;
 }
 .slidingVertical span:nth-child(2){
-	animation-delay: 2s;
+	animation-delay: 2.3s;
 }
 
 
