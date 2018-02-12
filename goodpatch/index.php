@@ -11,28 +11,28 @@
   	<!-- <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
 
     <!-- css -->
-    <link href="http://www.janospauer.com/css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css" />
     <link href="goodpatch.css" rel="stylesheet" type="text/css" />
 
     <!-- js -->
-    <script src="http://www.janospauer.com/js/index.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
 
 
     <!-- fonts -->
 
     <!-- icons -->
-    <link rel="apple-touch-icon" href="http://www.janospauer.com/images/icon.png" />
-    <link rel="shortcut icon" href="http://www.janospauer.com/favicon.ico" type="http://www.janospauer.com/image/x-icon">
-    <link rel="icon" href="http://www.janospauer.com/favicon.ico" type="image/x-icon">
-    <link rel='mask-icon' href='http://www.janospauer.com/pinned.svg' color='hsl(152, 89%, 61%)'>
+    <link rel="apple-touch-icon" href="../images/icon.png" />
+    <link rel="shortcut icon" href="../favicon.ico" type="../image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel='mask-icon' href='../pinned.svg' color='hsl(152, 89%, 61%)'>
   </head>
   <body>
     <main>
       <article class="white">
         <header>
-          <h1 class="headerone sentence">Good
+          <h1 class="akzent headerone sentence">Good
             <div class="slidingVertical">
-              <span class="akzent"> morning!</span>
+              <span class="akzent"> morning</span>
               <span class="akzent">patch!</span>
             </div>
           </h1>
@@ -49,7 +49,7 @@
             </section>
 
            <section class="physics">
-             <object data="http://www.janospauer.com/images/physics.svg" class="svgobject inlinesvg" id="phys"></object>
+             <object data="../images/physics.svg" class="svgobject inlinesvg" id="phys"></object>
 
 
              <p>I have a bachelor&rsquo;s degree in physics from the <a href="http://www.fu-berlin.de/en/index.html" class="akzent" target="_blank">Freie Universität Berlin</a>. I studied physics mostly to prove to myself that I could do it. Reasearch for my thesis involved beam time at the <a href="https://www.helmholtz-berlin.de/quellen/bessy/index_en.html" class="akzent" target="_blank"><span class="caps">BESSY II</span></a> synchrotron radiation source.</p>
@@ -60,7 +60,7 @@
 
            <section class="htw">
 
-             <object data="http://www.janospauer.com/images/design.svg" class="svgobject inlinesvg"></object>
+             <object data="../images/design.svg" class="svgobject inlinesvg"></object>
 
              <p>Right now, I&rsquo;m enrolled in a bachelor&rsquo;s program in <em>communication design</em> at <a href="https://www.htw-berlin.de/en/" class="akzent" target="_blank">HTW Berlin</a>.</p>
              <p class="indent"> Recently I&rsquo;ve been working on my JavaScript skills in combination with some fancy UI&thinsp;/&thinsp;UX stuff. I love this kind of work because it exposes me to awesome tools and technology like Figma, Framer, <span class="caps">THREE</span>.js and D3.js.
@@ -72,13 +72,13 @@
 
            <section class="bar">
 
-             <object data="http://www.janospauer.com/images/bar.svg" class="svgobject inlinesvg"></object>
+             <object data="../images/bar.svg" class="svgobject inlinesvg"></object>
              <p>I also proudly bartend part-time at <a href="https://www.facebook.com/Loewerein" class="akzent" target="_blank">Alter Roter Löwe Rein</a>. I believe it&rsquo;s important to know how to make a decent gin fizz and how to correctly pour a beer. </br>I really enjoy the comradery of working in a great team, but I will say that the hours are pretty terrible.</p>
              <p class="indent"></p>
            </section>
 
            <section class="rebikel">
-             <object data="http://www.janospauer.com/images/patch.svg" class="svgobject inlinesvg"></object>
+             <object data="../images/patch.svg" class="svgobject inlinesvg"></object>
 
 
              <p>Some other usefull skills include repairing bicycles, fluent academic English (<span class="caps">TOEFL</span> score of 112⁄120) and even a driver&rsquo;s license!</p>
@@ -99,7 +99,7 @@
         <section class="works">
           <div class="phone">
             <div class="screen">
-              <video src="http://www.janospauer.com/videos/blcrop.mp4" poster="http://www.janospauer.com/videos/blcrop.png" autoplay loop playsinline="" width="100%" height="100%" class="proto"></video>
+              <video src="../videos/blcrop.mp4" poster="../videos/blcrop.png" autoplay loop playsinline="" width="100%" height="100%" class="proto"></video>
             </div>
           </div>
           <div class="text">
@@ -134,7 +134,7 @@
             </div>
             <div class="phone">
               <div class="screen">
-                <video src="http://www.janospauer.com/videos/cycleto.mp4" poster="http://www.janospauer.com/videos/cycleto.png" autoplay loop playsinline="" width="100%" height="100%" class="proto"></video>
+                <video src="../videos/cycleto.mp4" poster="../videos/cycleto.png" autoplay loop playsinline="" width="100%" height="100%" class="proto"></video>
               </div>
             </div>
           </section>
@@ -151,12 +151,12 @@
           <div class="browsers" onclick="switcher(0)">
             <div class="browser top">
               <div class="screen">
-                <video src="http://www.janospauer.com/videos/start.mp4" poster="http://www.janospauer.com/videos/start.png" autoplay loop playsinline="" width="100%" height="100%" class="proto"></video>
+                <video src="../videos/start.mp4" poster="../videos/start.png" autoplay loop playsinline="" width="100%" height="100%" class="proto"></video>
               </div>
             </div>
             <div class="browser bottom b">
               <div class="screen">
-                <video src="http://www.janospauer.com/videos/dd.mp4" poster="http://www.janospauer.com/videos/dd.png" autoplay loop playsinline="" width="100%" height="100%" class="proto"></video>
+                <video src="../videos/dd.mp4" poster="../videos/dd.png" autoplay loop playsinline="" width="100%" height="100%" class="proto"></video>
               </div>
             </div>
           </div>
@@ -182,7 +182,7 @@
           <section class="works">
             <div class="ipad browsers">
               <div class="screen">
-                <video src="http://www.janospauer.com/videos/todo.mp4" poster="http://www.janospauer.com/videos/todo.png" autoplay loop playsinline="" width="100%" height="100%" class="proto"></video>
+                <video src="../videos/todo.mp4" poster="../videos/todo.png" autoplay loop playsinline="" width="100%" height="100%" class="proto"></video>
               </div>
             </div>
             <h3>Digital Media</h3>
@@ -206,7 +206,7 @@
       <article class="entry transparent">
         <section class="works">
           <div class="image">
-            <iframe src="http://www.janospauer.com/svg/index.html"></iframe>
+            <iframe src="../svg/index.html"></iframe>
           </div>
           <h3>Programmatic Glyph Generation</h3>
           <div class="text">
@@ -231,20 +231,20 @@
 
 
           <section class="tile">
-              <object data="http://www.janospauer.com/images/spotify2.svg" class="svgobject worksimg"></object>
+              <object data="../images/spotify2.svg" class="svgobject worksimg"></object>
           </section>
 
 
 
           <section class="tile">
-              <object data="http://www.janospauer.com/images/senf.svg" class="svgobject worksimg"></object
+              <object data="../images/senf.svg" class="svgobject worksimg"></object
             </a>
           </section>
 
 
 
           <?php
-          $path = "http://www.janospauer.com/images/works";
+          $path = "../images/works";
           $glob1 = glob($path . '/*');
           // print_r($glob1);
           //
@@ -272,17 +272,17 @@
       <div class="fcont">
         <ul>
           <li><a href="https://www.instagram.com/janosp/" target="_blank">
-          <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://www.janospauer.com/images/instagram.svg" class="socialicon" alt="Instagram Icon"></a></li>
+          <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="../images/instagram.svg" class="socialicon" alt="Instagram Icon"></a></li>
           <li><a href="https://open.spotify.com/user/1171628059" target="_blank">
-            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://www.janospauer.com/images/spotify.svg" class="socialicon" alt="Spotify Icon"></a></li>
+            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="../images/spotify.svg" class="socialicon" alt="Spotify Icon"></a></li>
           <li><a href="mailto:&#109;&#101;&#064;&#106;&#097;&#110;&#111;&#115;&#112;&#097;&#117;&#101;&#114;&#046;&#099;&#111;&#109;?Subject=janospauer.com">
-            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://www.janospauer.com/images/mail.svg" class="socialicon" alt="Mail Icon"></a></li>
+            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="../images/mail.svg" class="socialicon" alt="Mail Icon"></a></li>
           <li><a href="www.linkedin.com/in/janospauer">
-            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://www.janospauer.com/images/linkedin.svg" class="socialicon" alt="LinkedIn Icon"></a></li>
+            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="../images/linkedin.svg" class="socialicon" alt="LinkedIn Icon"></a></li>
         </ul>
 
         <div class="copy">
-          <a href="http://www.janospauer.com/imprint/imprint.html" alt="Imprint">Imprint</a> | &copy; Janos Pauer
+          <a href="../imprint/imprint.html" alt="Imprint">Imprint</a> | &copy; Janos Pauer
         </div>
 
       </div>
