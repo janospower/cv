@@ -30,9 +30,9 @@
     <main>
       <article class="white">
         <header>
-          <h1 class="akzent headerone sentence">Good
+          <h1 class="headerone sentence">Good
             <div class="slidingVertical">
-              <span class="akzent"> morning</span>
+              <span class=""> morning</span>
               <span class="akzent">patch!</span>
             </div>
           </h1>
@@ -387,42 +387,9 @@
             </table>
 
           </section>
-          <h3>Miscellaneous Little Projects & Instagram</h3>
+          
         </div>
-        <article class="entry transparent rest">
 
-
-          <section class="tile">
-              <object data="../images/spotify2.svg" class="svgobject worksimg"></object>
-          </section>
-
-
-
-          <section class="tile">
-              <object data="../images/senf.svg" class="svgobject worksimg"></object
-            </a>
-          </section>
-
-
-
-          <?php
-          $path = "../images/works";
-          $glob1 = glob($path . '/*');
-          // print_r($glob1);
-          //
-          // $glob2 = new GlobIterator($path . '/*');
-          // print_r(iterator_to_array($glob2));
-
-          for ($i=0; $i<count($glob1); $i++)
-          {
-            // print_r($i);
-            // print_r($num);
-            $num = $glob1[$i];
-            echo '<section class="tile">
-            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="'.$num.'" class="worksimg" alt="Gallery image">
-            </section>'." ";
-          }
-          ?>
 
         </article>
       </div>
