@@ -41,10 +41,11 @@
 
           <!-- <article class="intro"> -->
             <section class="about">
-              <h2>Who&rsquo;s That?</h2>
+              <h2>Let me join in designing the Wow!</h2>
               <p>
-                An aspiring digital product designer based in Berlin.
-                Read a bit more about how I got where I am or jump straight to my <a href="#portfolio" class="akzent">projects</a>.
+                I&rsquo;m looking for a challenge! Are you looking for some help? Ever since I first stepped foot in your office during a <a href="#kze" class="akzent">design sprint</a> last october, I haven&rsquo;t stopped thinking about what it might be like to join that team one day. <br/>
+                I&rsquo;m a passionate aspiring designer and I would love to get to know you and see, if my skill set could be a valuable asset to you&mdash;I&rsquo;m already convinced that I could learn tremendous amounts and hopefully contribute a lot in such an environment.<br/><br/>
+                If you really like reading, there&rsquo;s some more information on who I am directly below, otherwise you can skip straight to some of my <a href="#skip" class="akzent">projects</a>.
               </p>
             </section>
 
@@ -83,9 +84,13 @@
 
              <p>Some other usefull skills include repairing bicycles, fluent academic English (<span class="caps">TOEFL</span> score of 112⁄120) and even a driver&rsquo;s license!</p>
            </section>
+
+
           <!-- </article> -->
           <!-- <article class="portfolio"> -->
             <section class="portfolio">
+
+
               <h2>Portfolio</h2>
               <p>
                 Over the years I have accumulated large amounts of projects&mdash;some better than others. The following is just a glimpse into some of the work that are particularily close to my heart.
@@ -95,7 +100,7 @@
 
 
 
-      <article class="entry transparent">
+      <article class="entry transparent" id="skip">
         <section class="works">
           <div class="phone">
             <div class="screen">
@@ -118,7 +123,7 @@
       </article>
 
       <div class="whiteentry">
-        <article class="entry">
+        <article class="entry" id="kze">
           <section class="works">
 
             <div class="text">
@@ -225,7 +230,164 @@
 
       <div>
         <div class="entry transparent">
-          <h3>Assorted Projects</h3>
+          <section class="resume">
+            <h2>Resume</h2>
+            <table>
+              <tr>
+                <td style="width: 250px;">Name</td>
+                <td style="width: 500px;">Janos Pauer</td>
+              </tr>
+              <tr>
+                <td>Address</td>
+                <td>Silbersteinstr.  <br>				35, 12051 Berlin</td>
+              </tr>
+              <tr>
+                <td>Date of birth</td>
+                <td>March 7. 1991</td>
+              </tr>
+              <tr>
+                <td>Phone</td>
+                <td>+49 1578 20 39 5 39</td>
+              </tr>
+              <tr>
+                <td>E-Mail</td>
+                <td>me@janospauer.com</td>
+              </tr>
+              <tr>
+                <td>Nationailty</td>
+                <td>Austrian</td>
+              </tr>
+            </table>
+
+            <strong>Experience</strong>
+
+            <table>
+              <tr>
+                <td style="width: 250px;">Since 2017</td>
+                <td style="width: 500px;">sehen und ernten e.V.; Berlin </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Chairman, various design projects</td>
+              </tr>
+              <tr>
+                <td>Since 2015</td>
+                <td>Alter Roter Löwe Rein; Berlin </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Barkeeper</td>
+              </tr>
+              <tr>
+                <td>2010 — 2011</td>
+                <td>a:xperience; Wien, Österreich </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Web-/App- & Print design,  Concept, Photography</td>
+              </tr>
+            </table>
+
+            <strong>Education</strong>
+
+            <table>
+              <tr>
+                <td style="width: 250px;">Since 2016</td>
+                <td style="width: 500px;">B.A. Communication design; HTW Berlin </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Preliminary grade: 1.3</td>
+              </tr>
+              <tr>
+                <td>2011 — 2015</td>
+                <td>B.A. Physics; Freie Universität Berlin 	</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Thesis: Magnetization Dynamics of Gd: 1.1</td>
+              </tr>
+              <tr>
+                <td>2009 — 2010</td>
+                <td>High School Dipl.; BORG Dreierschützengasse AT</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>“Excellent” graduation (1.2)</td>
+              </tr>
+              <tr>
+                <td>1997 — 2009</td>
+                <td>k — 12; Freie Waldorfschule Graz, AT</td>
+              </tr>
+            </table>
+
+            <strong>Internships</strong>
+            <table>
+              <tr>
+                <td style="width: 250px;">2015</td>
+                <td style="width: 500px;">INTRATEC; Graz, AT </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Software development for web apps, interface design</td>
+              </tr>
+              <tr>
+                <td>2008</td>
+                <td>Camphill; Liebenfels, AT </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Caretaker for persons with disabilities</td>
+              </tr>
+              <tr>
+                <td>2005</td>
+                <td>Weingut spitzyPeitler; Leutschach, AT </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Viniculturalist, Photography</td>
+              </tr>
+            </table>
+
+            <strong>Skills</strong>
+            <p>Languages</p>
+            <table>
+              <tr>
+                <td style="width: 250px;">English</td>
+                <td style="width: 500px;">Fluent academic: C1 / TOEFL-Score: 112 of 120 </td>
+              </tr>
+              <tr>
+                <td>Turkish</td>
+                <td>Basic knowledge: A2.1 </td>
+              </tr>
+              <tr>
+                <td>French</td>
+                <td>School level</td>
+              </tr>
+            </table>
+
+            <p>Tools & Computer Languages</p>
+            <table>
+              <tr>
+                <td style="width: 250px;">Programming</td>
+                <td style="width: 500px;">JavaScript, Python, Java, Haskell, PHP,  CoffeeScript</td>
+              </tr>
+              <tr>
+                <td>Libraries & Frameworks</td>
+                <td>Framer, THREE, D3, jQuery, fullPage</td>
+              </tr>
+              <tr>
+                <td>Markup</td>
+                <td>HTML, XML, SVG, CSS, Markdown, LaTeX</td>
+              </tr>
+              <tr>
+                <td>Software</td>
+                <td>Figma, Flinto, Framer Studio, Pixelmator, Atom, Google SketchUp, Adobe CC, Sketch, GitHub,  Mathematica, …</td>
+              </tr>
+            </table>
+            
+          </section>
+          <h3>Miscellaneous Little Projects & Instagram</h3>
         </div>
         <article class="entry transparent rest">
 

@@ -35,3 +35,23 @@ h1{
 	50% { opacity: 0; transform: translateY(50px) perspective(50em) rotateX(-90deg); }
 	100% { opacity: 0; }
 }
+.resume > p {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.resume td {
+  vertical-align:top;
+  padding: 0px;
+  margin: 0px;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table{
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 15px;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
