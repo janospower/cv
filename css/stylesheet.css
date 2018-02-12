@@ -148,7 +148,6 @@ h1 {
   padding-top: 0px;
   /*text-transform: none;*/
   font-size: 14vw;
-  color: white;
   -webkit-transform: rotateX(0deg); /* Safari */
   transform: rotateX(0deg);
   -ms-transform-origin: 0% 80%; /* IE 9 */
@@ -486,7 +485,7 @@ iframe{
     .bottom:hover{
       transform: translate(15px,10px) scale(0.95);
     }
-    
+
     .b{
       top: -615px;
     }
@@ -505,7 +504,6 @@ iframe{
       padding-top: 0px;
       /*text-transform: none;*/
       font-size: 139px;
-      color: white;
       margin: 0px;
     }
     h3{
