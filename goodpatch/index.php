@@ -231,10 +231,10 @@
       <div>
         <div class="entry transparent">
           <section class="resume">
-            <h2>Resume</h2>
+            <h3>Resume</h3>
             <table>
               <tr>
-                <td style="width: 250px;">Name</td>
+                <td style="width: 270px;">Name</td>
                 <td style="width: 500px;">Janos Pauer</td>
               </tr>
               <tr>
@@ -259,11 +259,11 @@
               </tr>
             </table>
 
-            <strong>Experience</strong>
+            <h2>Experience</h2>
 
             <table>
               <tr>
-                <td style="width: 250px;">Since 2017</td>
+                <td style="width: 270px;">Since 2017</td>
                 <td style="width: 500px;">sehen und ernten e.V.; Berlin </td>
               </tr>
               <tr>
@@ -288,11 +288,11 @@
               </tr>
             </table>
 
-            <strong>Education</strong>
+            <h2>Education</h2>
 
             <table>
               <tr>
-                <td style="width: 250px;">Since 2016</td>
+                <td style="width: 270px;">Since 2016</td>
                 <td style="width: 500px;">B.A. Communication design; HTW Berlin </td>
               </tr>
               <tr>
@@ -321,10 +321,10 @@
               </tr>
             </table>
 
-            <strong>Internships</strong>
+            <h2>Internships</h2>
             <table>
               <tr>
-                <td style="width: 250px;">2015</td>
+                <td style="width: 270px;">2015</td>
                 <td style="width: 500px;">INTRATEC; Graz, AT </td>
               </tr>
               <tr>
@@ -349,11 +349,11 @@
               </tr>
             </table>
 
-            <strong>Skills</strong>
-            <p>Languages</p>
+            <h2>Skills</h2>
+            <strong>Languages</strong>
             <table>
               <tr>
-                <td style="width: 250px;">English</td>
+                <td style="width: 270px;">English</td>
                 <td style="width: 500px;">Fluent academic: C1 / TOEFL-Score: 112 of 120 </td>
               </tr>
               <tr>
@@ -366,11 +366,11 @@
               </tr>
             </table>
 
-            <p>Tools & Computer Languages</p>
+            <strong>Tools & Computer Languages</strong>
             <table>
               <tr>
-                <td style="width: 250px;">Programming</td>
-                <td style="width: 500px;">JavaScript, Python, Java, Haskell, PHP,  CoffeeScript</td>
+                <td style="width: 270px;">Programming</td>
+                <td style="width: 500px;">JavaScript, Python, Java, Haskell, PHP, CoffeeScript</td>
               </tr>
               <tr>
                 <td>Libraries & Frameworks</td>
@@ -385,7 +385,7 @@
                 <td>Figma, Flinto, Framer Studio, Pixelmator, Atom, Google SketchUp, Adobe CC, Sketch, GitHub,  Mathematica, …</td>
               </tr>
             </table>
-            
+
           </section>
           <h3>Miscellaneous Little Projects & Instagram</h3>
         </div>
