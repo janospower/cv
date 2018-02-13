@@ -101,7 +101,7 @@
 
 
       <article class="entrygrid transparent" id="skip">
-        <div class="bg l">
+        <div class="bg l" id="bg1">
 
         </div>
         <section class="works">
@@ -123,14 +123,14 @@
             </p>
           </div>
         </section>
-        <div class="bg r">
+        <div class="bg r" id="bg2">
 
         </div>
       </article>
 
       <div class="whiteentry">
         <article class="entrygrid" id="kze">
-          <div class="bg l">
+          <div class="bg l" id="bg3">
 
           </div>
           <section class="works">
@@ -152,7 +152,7 @@
               </div>
             </div>
           </section>
-          <div class="bg r">
+          <div class="bg r" id="bg4">
 
           </div>
         </article>
