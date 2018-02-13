@@ -100,7 +100,10 @@
 
 
 
-      <article class="entry transparent" id="skip">
+      <article class="entrygrid transparent" id="skip">
+        <div class="bg l">
+
+        </div>
         <section class="works">
           <div class="phone">
             <div class="screen">
@@ -120,10 +123,16 @@
             </p>
           </div>
         </section>
+        <div class="bg r">
+
+        </div>
       </article>
 
       <div class="whiteentry">
-        <article class="entry" id="kze">
+        <article class="entrygrid" id="kze">
+          <div class="bg l">
+
+          </div>
           <section class="works">
 
             <div class="text">
@@ -143,6 +152,9 @@
               </div>
             </div>
           </section>
+          <div class="bg r">
+
+          </div>
         </article>
       </div>
 
@@ -387,7 +399,7 @@
             </table>
 
           </section>
-          
+
         </div>
 
 
