@@ -37,7 +37,9 @@
             <section class="about">
               <h2>Who&rsquo;s That?</h2>
               <p>
-                An aspiring digital product designer based in Berlin.
+                Digital Product Designer.
+Currently working at Goodpatch Berlin on a rapid prototyping tool for automotive, trying to democratize VR.
+B.A. in Physics, chairman position at sehen und ernten e.V. and mixing mean Pisco Sours.
                 Read a bit more about how I got where I am or jump straight to my <a href="#portfolio" class="akzent">projects</a>.
               </p>
             </section>
@@ -62,12 +64,13 @@
              <p class="indent">
                On the side, I am a chairman at <a href"https://www.sehenundernten.org" style="text-transform: lowercase" class="akzent" target="_blank">sehen und ernten</a>.
              </p>
+             <p class="indent">Oh, I also work at <a href"https://www.goodpatch.com" style="text-transform: lowercase" class="akzent" target="_blank">Goodpatch</a>!</p>
            </section>
 
            <section class="bar">
 
              <object data="images/bar.svg" class="svgobject inlinesvg"></object>
-             <p>I also proudly bartend part-time at <a href="https://www.facebook.com/Loewerein" class="akzent" target="_blank">Alter Roter Löwe Rein</a>. I believe it&rsquo;s important to know how to make a decent gin fizz and how to correctly pour a beer. </br>I really enjoy the comradery of working in a great team, but I will say that the hours are pretty terrible.</p>
+             <p>I used to proudly bartend part-time at <a href="https://www.facebook.com/Loewerein" class="akzent" target="_blank">Alter Roter Löwe Rein</a>. I believe it&rsquo;s important to know how to make a decent gin fizz and how to correctly pour a beer. </br>I really enjoy the comradery of working in a great team, but I will say that the hours are pretty terrible.</p>
              <p class="indent"></p>
            </section>
 
